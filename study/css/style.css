@@ -1,0 +1,66 @@
+/* ページ全体 */
+
+body {
+    background-color: #ffffff;
+}
+
+
+/** ヘッダー */
+
+.header_container {
+    display: flex;
+    height: 130px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px ;
+    background-color:#0f1923;
+    width: 100%;
+}
+
+.header_logo {}
+
+.logo_image {
+    margin-right: 1400px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.header_menu {
+    display: flex;
+    width: 30vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0px 0px 50px  ;
+}
+
+.about{
+ background-image:url("../img/about.jpg") ;
+ color: #ffffff;
+}
+
+
+.members{
+    width: 100px;
+    border: #ff0000;
+    background-color: black;
+    display: flex;
+    padding: 100%;
+    justify-content: space-evenly;
+}
+
+/* リンク文字 */
+
+.header_menu_item a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* リンク文字ホバー時 */
+
+a:hover {
+    color: aqua;
+}
+
+.contents_item h1 {}
